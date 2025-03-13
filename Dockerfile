@@ -22,7 +22,9 @@ ENV STORAGE_AZURE_ACCOUNT_NAME=sdrimllabelui
 ENV STORAGE_AZURE_ACCOUNT_KEY=1bM9Hod0u6yxyLVEepjk7P4N741nG+YH+/AJDn/XeDVMDNazNCqfbVcAIU1sXQ60bpuIjupef5HA+AStUow2ww==
 ENV STORAGE_AZURE_CONTAINER_NAME=labeluiimages
 ENV AZURE_LOCATION=centralus
+ENV CSRF_TRUSTED_ORIGINS=https://ml-labelui-gacyh6e5e7h4ave0.centralus-01.azurewebsites.net
 ENV DJANGO_CSRF_TRUSTED_ORIGINS=https://ml-labelui-gacyh6e5e7h4ave0.centralus-01.azurewebsites.net
+ENV DISABLE_CSRF=False
 # Start Label Studio
 # CMD ["label-studio", "start", "-db", "postgresql", "--port", "80", "--config", "/label-studio/config.json"]
 CMD ["label-studio", "start", "-db", "postgresql", "--port", "80"]
