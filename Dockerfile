@@ -22,8 +22,8 @@ ENV STORAGE_AZURE_ACCOUNT_NAME=sdrimllabelui
 ENV STORAGE_AZURE_ACCOUNT_KEY=1bM9Hod0u6yxyLVEepjk7P4N741nG+YH+/AJDn/XeDVMDNazNCqfbVcAIU1sXQ60bpuIjupef5HA+AStUow2ww==
 ENV STORAGE_AZURE_CONTAINER_NAME=labeluiimages
 ENV AZURE_LOCATION=centralus
-ENV CSRF_TRUSTED_ORIGINS=https://ml-labelui-gacyh6e5e7h4ave0.centralus-01.azurewebsites.net,https://label-studio.siliconmara.com
-ENV DJANGO_CSRF_TRUSTED_ORIGINS=https://ml-labelui-gacyh6e5e7h4ave0.centralus-01.azurewebsites.net,https://label-studio.siliconmara.com
+ENV CSRF_TRUSTED_ORIGINS=https://label-studio.siliconmara.com
+ENV DJANGO_CSRF_TRUSTED_ORIGINS=https://label-studio.siliconmara.com
 ENV DISABLE_CSRF=False
 
 ENV LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
