@@ -25,6 +25,8 @@ ENV AZURE_LOCATION=centralus
 ENV CSRF_TRUSTED_ORIGINS=https://ml-labelui-gacyh6e5e7h4ave0.centralus-01.azurewebsites.net
 ENV DJANGO_CSRF_TRUSTED_ORIGINS=https://ml-labelui-gacyh6e5e7h4ave0.centralus-01.azurewebsites.net
 ENV DISABLE_CSRF=False
+
+ENV LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
 # Start Label Studio
 # CMD ["label-studio", "start", "-db", "postgresql", "--port", "80", "--config", "/label-studio/config.json"]
 CMD ["label-studio", "start", "-db", "postgresql", "--port", "80"]
