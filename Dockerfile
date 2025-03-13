@@ -30,4 +30,4 @@ ENV HOST=label-studio.siliconmara.com
 ENV LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
 # Start Label Studio
 # CMD ["label-studio", "start", "-db", "postgresql", "--port", "80", "--config", "/label-studio/config.json"]
-CMD ["label-studio", "start", "-db", "postgresql", "--port", "80"]
+CMD ["label-studio", "start", "-db", "postgresql", "--host", "https://label-studio.siliconmara.com", "--port", "80"]
