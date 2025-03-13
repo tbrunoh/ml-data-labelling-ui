@@ -25,7 +25,8 @@ ENV AZURE_LOCATION=centralus
 ENV CSRF_TRUSTED_ORIGINS=https://label-studio.siliconmara.com
 ENV DJANGO_CSRF_TRUSTED_ORIGINS=https://label-studio.siliconmara.com
 ENV DISABLE_CSRF=False
-
+ENV LABEL_STUDIO_HOST=https://label-studio.siliconmara.com
+ENV HOST=label-studio.siliconmara.com
 ENV LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
 # Start Label Studio
 # CMD ["label-studio", "start", "-db", "postgresql", "--port", "80", "--config", "/label-studio/config.json"]
