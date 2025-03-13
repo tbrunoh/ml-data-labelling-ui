@@ -25,4 +25,4 @@ ENV AZURE_LOCATION=centralus
 ENV LABEL_STUDIO_HOST=https://ml-labelui-gacyh6e5e7h4ave0.centralus-01.azurewebsites.net
 # Start Label Studio
 # CMD ["label-studio", "start", "-db", "postgresql", "--port", "80", "--config", "/label-studio/config.json"]
-CMD ["label-studio", "start", "-db", "postgresql", "--port", "80"]
+CMD ["label-studio", "start", "-db", "postgresql", "--port", "80", "--debug", "true"]
