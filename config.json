@@ -5,14 +5,14 @@
     "ENGINE": "django.db.backends.postgresql",
     "NAME": "ml_label_studio_dev",
     "USER": "mladmin",
-    "PASSWORD": "4VVW1P6sriEK",
+    "PASSWORD": "",
     "HOST": "mldatalabeluidb.postgres.database.azure.com",
     "PORT": 5432
   },
   "STORAGE": {
     "TYPE": "azure_blob_storage",
     "ACCOUNT_NAME": "sdrimllabelui",
-    "ACCOUNT_KEY": "1bM9Hod0u6yxyLVEepjk7P4N741nG+YH+/AJDn/XeDVMDNazNCqfbVcAIU1sXQ60bpuIjupef5HA+AStUow2ww==",
+    "ACCOUNT_KEY": "",
     "CONTAINER_NAME": "labeluiimages"
   }
 }
